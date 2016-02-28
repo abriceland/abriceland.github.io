@@ -1,0 +1,28 @@
+
+header, nav, main, footer {
+    display: inline-block;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+main {
+    vertical-align: top;
+    display: inline-block;
+    margin: auto;
+    height: 400px;
+    width: 900px;
+    border: 4pt solid black;
+}
+
+main h1 {
+    vertical-align: top;
+    text-align: center;
+}
+
+main ul li {
+    display: inline-block;
+}
