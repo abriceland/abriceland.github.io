@@ -1,3 +1,7 @@
+* {
+    background-color: #ADDED6;
+}
+
 
 header, main, footer {
     display: inline-block;
