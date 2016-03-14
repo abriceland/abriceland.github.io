@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header</title>
+	  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+</head>
+
+<body>
+
+	<div>
+	<h3>Nav Bar</h3>
+		<section>
+		<ul>
+			<li>Home</li>
+			<li>Projects</li>
+			<li>Resume</li>
+			<li>Blog</li>
+			<li>Contact</li>
+			<li>My Journey</li>
+		</ul>
+		</section>
+	</div>
+
+	<div>
+		<h1>March 13, 2016</h1>
+		<h1>Magical, Magical Methods</h1>
+		<article>
+			<p>
+			    As I gradually become initiatied into the mystical world of coding in general and Ruby in particular, I learn more about its inner workings.  One example of a time and effort-saving aid to developers is the method, as already built and included in Ruby.  
+			</p>
+			<p>
+			    Methods are the actions of coding, what does a particular thing TO an object.  I've learned to write methods, but it's a painstaking process and prone to throwing error after error that has to be solved.  So Ruby includes a number of methods that already have code written for them.  As long as you are using it when it applies (inside its own class), it will work just like a magician drawing a rabbit out of a hat!
+			</p>
+			<p>
+			    There are a number of types of methods.  One type is called Enumberable.  It applies to situations in which you need to get numbers out of some sort of collection one at a time.  There are over fifty pre-baked methods that Ruby has ready and waiting for you to choose from to write your code.  You just have the job of figuring out which on is the best fit AND using it correctly.
+			</p>
+			<p>
+			    Let's take a look at one of these Enumerables - .partition.  This is a nifty little number that turns a list into two arrays (or lists in square brackets [ ]), one of which holds values that are true, while the other holds values that are false.  See the example below:
+			</p>
+			<code>
+			    (1..6).partition { |v| v.even? }  #=> [[2, 4, 6], [1, 3, 5]]
+			</code>
+			<p>
+			    Here, .partition is called on the range of number 1 through 6, which is the 1..6 in the parentheses.  In the block afterwards (the curly brackets) a true/false question is asked (a boolean), which wants to know if the value (v) inside the list it is going to look at is an even number.  This is represented by the .even? method and the question mark tell us that it is looking for a true/false answer.  .partition automatically evaluates the numbers and returns an answer - those that are even are in the first new array and those that aren't are in the second array. 
+			</p>
+			<p>
+			    Clearly, this is a handy-dandy tool to find if a lot of values are true or not and getting the individual groups bundled up into a nice, neat package.  These new arrays can then be extracted and used for some other purpose, hopefully not nefarious by nature.  
+			</p>
+			
+		</article>
+		<section>
+			<a href="http://www.abriceland.github.io/previous_blog"><h2>Previous Blog</h2></a>
+		</section>
+		<section>
+			<a href="http://www.abriceland.github.io/next_blog"><h2>Next Blog</h2></a>
+		</section>
+	</div>
+
+	<section>
+		<div>
+			<img src="http://www.freewill.com/image1" />
+		</div>
+		<div>
+		<h2>Additional Resources</h2>	
+		</div>	
+		<div>
+			<ul>
+				<li><a href="http://www.stackflow.com/ruby">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubyrules">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubytips">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubyrighteousness">Name</a></li>
+			</ul>	
+		</div>
+</body>
+
+<footer>
+	<p>&copy; copyright Alicia Briceland
+		<a href="www.facebook.com/Alicia_Briceland">Facebook</a>
+		<a href="www.github.io/abriceland">GitHub</a>
+		<a href="www.twitter.com/abriceland">Twitter</a>
+	</p>
+</footer>
+
+
+
+<img src="imgs/2.7 Wireframe.jpg">
+
+</html>
+
+
+<!-- 
+
+-->
