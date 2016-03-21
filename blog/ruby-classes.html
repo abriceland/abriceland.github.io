@@ -4,6 +4,7 @@
 	<title>Header</title>
 	   <meta charset="UTF-8">
        <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 		</section>
 	</div>
 
-	<div>
+	<main>
 		<h1>March 20, 2016</h1>
 		<h1>Who Needs Classes?</h1>
 		<article>
@@ -34,26 +35,27 @@
 			<p>Here's an example below:
 				
 			</p>
-			<code>
-				class Cat_toy
-    				attr_reader :name
-    				CAT_NAME = ["Paro", "Audrey", "Sylvia"]
+			<pre>
+	class Cat_toy
+    	attr_reader :name
+    	CAT_NAME = ["Paro", "Audrey", "Sylvia"]
 
-    				def initialize(name)
-        				@name = name
-    				end
+    	def initialize(name)
+        	@name = name
+    	end
     
-    				def playing
-        				"#{CAT_NAME.sample} is playing with the #{name}!"
-    				end
+    	def playing
+        	"#{CAT_NAME.sample} is playing with the #{name}!"
+    	end
 
-				end
+	end
 				
-				flying_bird = Cat_toy.new("Flying Bird"
+	flying_bird = Cat_toy.new("Flying Bird"
 				
-				flying_bird.playing
+	flying_bird.playing
 
-			</code>
+
+			</pre>
 			<p>
 				The name of the class is Cat_toy and it is like a template that can be used to create different copies for the many and varied cat toys available to the pampered feline.  The attr_reader (attribute reader) sets instance variables.  Local variables are only valid with a method, but instance variables can be share through a class, making them more flexible and bendy, like a good fishing pole cat toy. 
 			</p>
@@ -70,7 +72,7 @@
 		<section>
 			<a href="http://www.abriceland.github.io/next_blog"><h2>Next Blog</h2></a>
 		</section>
-	</div>
+	</main>
 
 	<section>
 		<div>
