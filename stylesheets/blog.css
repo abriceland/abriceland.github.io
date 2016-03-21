@@ -32,10 +32,10 @@ main ul li {
 }
 
 .title {
-    text-align: center
+    margin: auto;
 }
 
 pre {
-    text-align: center;
     font-weight: bold
+    font-size: 16;
 }
