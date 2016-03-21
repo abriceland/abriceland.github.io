@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Header</title>
+</head>
+
+<body>
+
+	<div>
+	<h3>Nav Bar</h3>
+		<section>
+		<ul>
+			<li>Home</li>
+			<li>Projects</li>
+			<li>Resume</li>
+			<li>Blog</li>
+			<li>Contact</li>
+			<li>My Journey</li>
+		</ul>
+		</section>
+	</div>
+
+	<div>
+		<h1>March 20, 2016</h1>
+		<h1>Who Needs Classes?</h1>
+		<article>
+			<p>As if working many hours a week to complete the requirements in my development bootcamp wasn't enough, there are also classes within Ruby, the programming language we have been learning about for three weeks now.  
+			</p>
+			<p>
+				But classes in Ruby are actually very useful.  In essence, they are more like families, groups of relations all together.  They can create new family members who look and act the same way.  It's an easy way to make duplicates in Ruby.
+			</p>
+			<p>Here's an example below:
+				
+			</p>
+			<code>
+				class Cat_toy
+    				attr_reader :name
+    				CAT_NAME = ["Paro", "Audrey", "Sylvia"]
+
+    				def initialize(name)
+        				@name = name
+    				end
+    
+    				def playing
+        				"#{CAT_NAME.sample} is playing with the #{name}!"
+    				end
+
+				end
+				
+				flying_bird = Cat_toy.new("Flying Bird"
+				
+				flying_bird.playing
+
+			</code>
+			<p>
+				The name of the class is Cat_toy and it is like a template that can be used to create different copies for the many and varied cat toys available to the pampered feline.  The attr_reader (attribute reader) sets instance variables.  Local variables are only valid with a method, but instance variables can be share through a class, making them more flexible and bendy, like a good fishing pole cat toy. 
+			</p>
+			<p>Because they are so flexible, I used both of the instance variables, @name and @cat_name, in the method playing.  When in the attr_reader, they only have a colon (:), but the @ sign in front indicates that they have a different function from a normal local variable.  The constant with a method attached, #{CAT_NAME.sample}, takes one of the names in CAT_NAME randomly and displays it in the sentence.  The #{name} adds in the toy name supplied when the template is accessed outside of the family group of the class.  And they both work way down at the bottom in the method!  That's family.  
+				
+			</p>
+			<p>Instance variables are a clever way to make variable more widely available, while still keeping them exclusive enough to remain interesting to a finicky cat.  Interestingly enough, the method playing is also considered an instance method, because it too can be accessed outside of the class.  It's not as flashy as the variable, but does its thing quietly and efficently, like a cat stalking its prey.  
+				
+			</p>
+		</article>
+		<section>
+			<a href="http://www.abriceland.github.io//blog/enumerable_methods.html"><h2>Previous Blog</h2></a>
+		</section>
+		<section>
+			<a href="http://www.abriceland.github.io/next_blog"><h2>Next Blog</h2></a>
+		</section>
+	</div>
+
+	<section>
+		<div>
+			<img src="http://www.freewill.com/image1" />
+		</div>
+		<div>
+		<h2>Additional Resources</h2>	
+		</div>	
+		<div>
+			<ul>
+				<li><a href="http://www.stackflow.com/ruby">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubyrules">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubytips">Name</a></li>
+				<li><a href="http://www.stackflow.com/rubyrighteousness">Name</a></li>
+			</ul>	
+		</div>
+</body>
+
+<footer>
+	<p>&copy; copyright Alicia Briceland
+		<a href="www.facebook.com/Alicia_Briceland">Facebook</a>
+		<a href="www.github.io/abriceland">GitHub</a>
+		<a href="www.twitter.com/abriceland">Twitter</a>
+	</p>
+</footer>
+
+
+
+<img src="imgs/2.7 Wireframe.jpg">
+
+</html>
+
+
+<!-- How was it to wireframe and create an HTML page with a pair?
+
+I found it to be an enjoyable process.  We were able to offer feedback on our different wireframes, brainstorm changes, and chart a path for the html.  Both my wireframe and code were improved by my pair's input.
+
+
+Did you find wireframing to be helpful to your development process?
+
+Yes, I found wireframing a useful way to outline my ideas.  It would have been less useful to only have them in text form when trying to write the code.
+
+
+What did you and your pair decide made a good wireframe? 
+
+We decided that clarity and consistency made a good wireframe.  Having a graphic or some visual element livened up the page. We also thought about what would be easier for the user experience, which is very important when drafting the wireframe.  
+
+
+What new semantic elements did you learn about (if any)?
+
+I learned that lists cannot be in paragraphs, but have to be sectioned out in another way, like <div>.-->
+
