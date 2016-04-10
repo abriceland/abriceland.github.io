@@ -6,26 +6,23 @@
 	<title>Header</title>
 	<meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+	<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
 </head>
 
 <body>
 
-	<div>
-	<h3>Nav Bar</h3>
-		<section>
-		<ul>
-			<li>Home</li>
-			<li>Projects</li>
-			<li>Resume</li>
-			<li>Blog</li>
-			<li>Contact</li>
-			<li>My Journey</li>
+		<nav>
+		<ul class="navlink">
+			<li><a href="index.html" class="navlink">Home</a></li>
+			<li><a href="projects.html" class="navlink">Projects</a></li>
+			<li><a href="/resume/" class="navlink">Resume</a></li>
+			<li><a href="blog-index.html" class="navlink">Blog</a></li>
+			<li><a href="contacts.html" class="navlink">Contact</a></li>
+			<li><a href="my_journey.html" class="navlink">My Journey</a></li>
 		</ul>
-		</section>
-	</div>
+		</nav>
 
-	<main>
+	<section>
 		<h1>February 28, 2016</h1>
 		<h1>CSS Awakening - Display Inline vs Inline Block?</h1>
 		<article>
@@ -44,11 +41,11 @@
             <p>
                 Blocks, which are another alternative in display, take up the whole width of a site.  Even if they are off to one side, nothing is allowed to sit next to them.  
             </p>
-            <img src="./blog/Placeholder.html">
+            <img src="../Placeholder.html">
             <p>
                 In the example above from my website, the navigation bar (which is what we use to move to different pages on a website) on the left is set as inline and not allowing the element below to be on the same line.
             </p>
-            <img src="./blog/Placeholder2.html">
+            <img src="../Placeholder2.html">
             <p>
                 In this second example, the sections are on the same line, still separate blocks, but sharing the website sandbox.  A command called float used to be used to place elements on website, but inline-block is an upgrade - "the new black". 
             </p>
@@ -62,13 +59,12 @@
                 Because of the rules governing CSS, most of which are still a mystery to me, understanding inline vs. inline block won't solve all of your problems.  But it's a start.
             </p>
 		</article>
-		<section>
+
 			<a href="http://abriceland.github.io/blog/git.html"><h2>Previous Blog</h2></a>
-		</section>
-		<section>
+
 			<a href="http://abriceland.github.io/blog/array.html"><h2>Next Blog</h2></a>
-		</section>
-	</main>
+	</section>
+
 
 </body>
 

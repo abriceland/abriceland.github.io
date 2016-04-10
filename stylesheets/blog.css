@@ -13,21 +13,21 @@ h2 {
 }
 
 
-main {
+section {
+    width: 52%;
+	height: 600px;
+	margin: auto;
+    padding: 10px 10px 10px;
     vertical-align: top;
-    display: inline-block;
-    margin: auto;
-    height: 400px;
-    width: 900px;
-    border: 4pt solid black;
+    font-family: serif;
 }
 
-main h1 {
+section h1 {
     vertical-align: top;
     text-align: center;
 }
 
-main ul li {
+section ul li {
     display: inline-block;
 }
 
@@ -35,7 +35,13 @@ main ul li {
     margin: auto;
 }
 
+.blog_side_image {
+    margin: auto;
+    width: 150px;
+    padding-top: 150px;
+}
+
 pre {
-    font-weight: bold
+    font-weight: bold;
     font-size: 16;
 }
